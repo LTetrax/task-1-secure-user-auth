@@ -1,0 +1,27 @@
+GET http://localhost:3000/users
+
+
+
+### Generate User
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "Tetrax",
+    "password": "password",
+    "role": "admin"
+}
+
+###
+
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+    "name": "Tetrax",
+    "password": "password"
+}
+
+### Access the protected route
+GET http://localhost:3000/protected
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoiS3lsZSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNzI1MzI5NjMwfQ._8g55DWf36A7fDdaktt_tVsxjOh2Ao0MC5vq3azInsc
