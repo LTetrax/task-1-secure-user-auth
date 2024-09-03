@@ -1,15 +1,12 @@
-# task-1-secure-user-auth
-First task for my Prodigy InfoTech Full Stack Web Development Internship
----
 
-# Task 1 - Secure User Authentication
+---
 
 ## Overview
 
 This project involves building a secure user authentication system using the MERN (MongoDB, Express.js, React, Node.js) stack. It includes setting up both backend and frontend applications, implementing user registration, login functionalities, and protecting routes with role-based access control.
 
 ---
-# MERN Stack project
+
 ## Lessons Learned
 
 ### **Backend Development with Express.js,Node.js, and MongoDB**
